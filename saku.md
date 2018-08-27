@@ -46,7 +46,7 @@
 > Updates the gh-pages branch
 
     saku clean
-    npx cross-env BASEPATH=/moneybit-app/app npx bulbo build
+    npx cross-env BASEPATH=/moneybit-app-snapshot-2018/app npx bulbo build
     npx domaindoc build
     npx langsheet build
     npx wsindex build
