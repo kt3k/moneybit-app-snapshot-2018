@@ -35575,7 +35575,7 @@ require('babel-polyfill');
 if (process.env.NODE_ENV !== 'production') {
   require('capsid/debug');
 }
-global.basepath = "/moneybit-app/app" || '';
+global.basepath = "/moneybit-app-snapshot-2018/app" || '';
 global.t10 = require('t10');
 global.capsid = require('capsid');
 global.capsid.on.useHandler('change');
@@ -36696,7 +36696,7 @@ exports.UI_SHOW = 'mb/ui/SHOW';
 exports.UI_HIDE = 'mb/ui/HIDE';
 
 },{}],430:[function(require,module,exports){
-const basepath = "/moneybit-app/app" || ''
+const basepath = "/moneybit-app-snapshot-2018/app" || ''
 
 module.exports = {
   BS: `${basepath}/pages/bs/index.html`,

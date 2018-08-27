@@ -47,7 +47,7 @@ exports.UI_SHOW = 'mb/ui/SHOW'
 exports.UI_HIDE = 'mb/ui/HIDE'
 
 },{}],4:[function(require,module,exports){
-const basepath = "/moneybit-app/app" || ''
+const basepath = "/moneybit-app-snapshot-2018/app" || ''
 
 module.exports = {
   BS: `${basepath}/pages/bs/index.html`,
